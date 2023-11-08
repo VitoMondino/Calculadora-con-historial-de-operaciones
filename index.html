@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="estilo calculadora.css">
+  </head>
+  <body>
+    <div class="calculator">
+      <h1>Calculadora</h1>
+      <div class="display">
+        <input type="text" id="result" readonly>
+      </div>
+      <div class="buttons">
+        <button onclick="addToResult('7')">7</button>
+        <button onclick="addToResult('8')">8</button>
+        <button onclick="addToResult('9')">9</button>
+        <button onclick="addToResult('/')">/</button>
+        <button onclick="addToResult('4')">4</button>
+        <button onclick="addToResult('5')">5</button>
+        <button onclick="addToResult('6')">6</button>
+        <button onclick="addToResult('*')">*</button>
+        <button onclick="addToResult('1')">1</button>
+        <button onclick="addToResult('2')">2</button>
+        <button onclick="addToResult('3')">3</button>
+        <button onclick="addToResult('-')">-</button>
+        <button onclick="addToResult('0')">0</button>
+        <button onclick="addToResult('.')">.</button>
+        <button onclick="calculate()">=</button>
+        <button onclick="addToResult('+')">+</button>
+        <button onclick="clearResult()">C</button>
+        <button onclick="clearHistory()">Borrar historial</button>
+        <button onclick="deleteLast()">B</button>
+      </div>
+      <div class="history">
+        <h2>Historial de operaciones</h2>
+        <ul id="history-list"></ul>
+      </div>
+    </div>
+    <script src="calculadora.js"></script>
+  </body>
+</html>

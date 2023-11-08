@@ -1,0 +1,69 @@
+/* Estilo calculadora */
+
+/* Contenedor principal */
+.calculator {
+  width: 300px;
+  margin: 0 auto;
+  background-color: #f1f1f1;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+/* Display */
+.display {
+  background-color: #fff;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 5px;
+  font-size: 18px;
+  border: none;
+}
+
+/* Botones */
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+}
+
+button {
+  padding: 10px;
+  font-size: 18px;
+  border: none;
+  background-color: #ddd;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #ccc;
+}
+
+/* Historial */
+.history {
+  margin-top: 20px;
+}
+
+h2 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+ 
